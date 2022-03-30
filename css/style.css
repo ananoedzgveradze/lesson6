@@ -1,0 +1,81 @@
+.foni{
+
+	display: block;
+	width: 1518px;
+	height: 750px;
+}
+.img{
+	position: absolute;
+}
+.qaltevza{
+	width: 275px;
+    height: 232px;
+    top: 150px;
+    left: 80px;
+    position: absolute;
+    animation: qaltevza 5s;
+  animation-iteration-count: 5;
+  
+}
+.kiborchxala{
+	width: 200px;
+    height: 180px;
+    top: 440px;
+    left: 440px;
+    position: absolute;
+    animation: kiborchxala 5s;
+    animation-direction: reverse;
+    animation-iteration-count: 5;
+  
+}
+
+.tevzi{
+	width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 460px;
+    right:290px;
+    animation: tevzi 5s infinite;
+    animation-iteration-count: 5;
+}
+.ursula{
+	width: 300px;
+    height: 300px;    
+    position: absolute;
+    top: 26px;
+    right: 50px;
+   animation: ursula 5s infinite
+
+
+}
+
+@keyframes qaltevza {
+  from {left: 0px;}
+  to {left:400px;}
+}
+
+@keyframes kiborchxala {
+	from {left: 0px;}
+  to {left: 400px;}
+  0%{transform: rotate(0deg);}
+	0%{transform: rotate(50deg);}
+	0%{transform: rotate(100deg);}
+	0%{transform: rotate(200deg);}
+}
+
+@keyframes ursula {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  75%  {top: 50px}
+  100% {top: 100px;}
+}
+
+@keyframes tevzi {
+  
+  0%   {top: 460px; right: 290px;}
+  25%  {top: 460px; right: 390px;}
+  50%  {top: 500px; right: 390px;}
+  75%  {top: 500px; right: 290px;}
+  100% {top: 460px; right: 290px;}
+  
+}
